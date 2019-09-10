@@ -9,13 +9,13 @@
 #include <WiFi.h>
 #include <EEPROM.h>
 
-const char* ssid     = "BEZEQINT-6FF1";    //"uri";   "SHELEG";     //"erezphone";  //yaniv levy
-const char* password = "4062920574";  //"12345678"; "111222777";  //"0317887630";       //"opel0";
+const char* ssid     = "wifi network name"; 
+const char* password = "wifi password"; 
 
 const char* host = "www.alexshoyhit.com";  //"www.alexshoyhit.com"; "www.tankcare.shop";
 const char* streamId   = "....................";
 const char* privateKey = "....................";
-String number="972523320940";
+String number="number to send sms";
 String message="hello world";
 String url = "/";
 
